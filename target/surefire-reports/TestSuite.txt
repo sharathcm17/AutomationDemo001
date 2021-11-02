@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.384 s <<< FAILURE! - in TestSuite
+com.google.in.OpeningGoogle.execute  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.createNode(String)" because "com.google.in.OpeningGoogle.testlog" is null
+	at com.google.in.OpeningGoogle.execute(OpeningGoogle.java:39)
+
+com.google.in.OpeningGoogle.tearDown  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.info(String)" because "com.google.in.OpeningGoogle.testlog" is null
+	at com.google.in.OpeningGoogle.tearDown(OpeningGoogle.java:55)
+
